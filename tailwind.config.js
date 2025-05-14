@@ -20,6 +20,7 @@ module.exports = {
         whitelight: "#FFFFFF4D",
         cusgray: "#5B5B5B",
         cusorange: "#F48C06",
+        cuslightblue: "#252641",
       },
       spacing: {
         30: '30px',
