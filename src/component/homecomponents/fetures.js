@@ -38,7 +38,7 @@ export default function Fetures() {
                   <Gridicon />
                 </div>
                 <p>
-                  Teachers don't get lost in the grid view and have a dedicated
+                  Teachers don&apos;t get lost in the grid view and have a dedicated
                   Podium space.
                 </p>
               </div>
@@ -47,7 +47,7 @@ export default function Fetures() {
                   <Colsicon />
                 </div>
                 <p>
-                  TA's and presenters can be moved to the front of the class.
+                  TA&apos;s and presenters can be moved to the front of the class.
                 </p>
               </div>
               <div className="flex items-center gap-10">
