@@ -1,0 +1,69 @@
+import Calendericon from "@/assets/icon/calendericon";
+import Pageicon from "@/assets/icon/pageicon";
+import Supporticon from "@/assets/icon/supporticon";
+import React from "react";
+
+export default function Cludesoftware() {
+  const Cloudecarddata = [
+    {
+      iconcolor: "bg-themeblue",
+      icon: <Pageicon />,
+      title: "Online Billing, Invoicing, & Contracts",
+      paragraph:
+        "Simple and secure control of your organization's financial and legal transactions. Send customized invoices and contracts",
+    },
+    {
+      iconcolor: "bg-greenmuted",
+      icon: <Calendericon />,
+      title: "Easy Scheduling & Attendance Tracking",
+      paragraph:
+        "Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance",
+    },
+    {
+      iconcolor: "bg-themeskyblue",
+      icon: <Supporticon />,
+      title: "Customer Tracking",
+      paragraph:
+        "Automate and track emails to individuals or groups. Skilline's built-in system helps organize your organization ",
+    },
+  ];
+  return (
+    <div className="pt-[131px]">
+      <div className="container3">
+        <div className="px-[28px]">
+          <div className="flex justify-center items-center flex-col mb-100">
+            <h3 className="text-4xl font-bold leading-[65px] text-cusblue mb-5">
+              All-In-One{" "}
+              <span className="text-greenmuted">Cloud Software.</span>
+            </h3>
+            <p className="max-w-[837px] text-center text-2xl font-normal leading-[44px] text-lightpurplemuted">
+              TOTC is one powerful online software suite that combines all the
+              tools needed to run a successful school or office.
+            </p>
+          </div>
+          <div className="grid grid-cols-3 gap-60">
+            {Cloudecarddata.map((i) => (
+              <div className="relative pt-[57px]">
+                <div className="absolute top-0 left-2/4 -translate-x-2/4">
+                  <div
+                    className={`rounded-full w-100 h-100 flex justify-center items-center ${i.iconcolor}`}
+                  >
+                    {i.icon}
+                  </div>
+                </div>
+                <div className="shadow-shadow1 w-full h-full flex items-center flex-col text-center px-9 pb-50 pt-[122px] rounded-[20px]">
+                  <h4 className="text-3xl font-medium leading-[45px] text-cusblue mb-6">
+                    {i.title}
+                  </h4>
+                  <p className="text-xl leading-[35px] font-normal text-lightpurplemuted">
+                    {i.paragraph}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

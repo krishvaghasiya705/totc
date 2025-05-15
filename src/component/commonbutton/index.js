@@ -12,6 +12,8 @@ export default function Commonbutton({
   const variantStyles = {
     primary: "bg-white text-cusgray group-hover:bg-whitelight group-hover:text-white",
     secondary: "bg-whitelight text-white group-hover:bg-white group-hover:text-cusgray",
+    bordered: "bg-transparent border-solid border-[1px] border-white text-white group-hover:bg-skybluemuted group-hover:border-skybluemuted",
+    borderedgreen: "bg-transparent border-solid border-[1px] border-green text-green group-hover:bg-green group-hover:border-green group-hover:text-white",
   };
 
   return (
