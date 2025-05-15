@@ -14,11 +14,13 @@ export default function Everything() {
               <span className="text-greenmuted">you can do with TOTC</span>
             </h5>
             <p className="text-2xl leadin-[43px] font-normal text-lightpurplemuted mb-30">
-              TOTC's school management software helps traditional and online
+              TOTC&apos;s school management software helps traditional and online
               schools manage scheduling, attendance, payments and virtual
               classrooms all in one secure cloud-based system.
             </p>
-            <span className="text-[22px] leading-10 font-normal text-lightpurplemuted underline pointer">Learn more</span>
+            <span className="text-[22px] leading-10 font-normal text-lightpurplemuted underline pointer">
+              Learn more
+            </span>
           </div>
           <div className="relative p-5 before:absolute before:top-0 before:left-0 before:w-[128px] before:h-[128px] before:rounded-[20px] before:bg-skybluemuted after:absolute after:bottom-0 after:right-0 after:w-[231px] after:h-[231px] after:rounded-[20px] after:bg-skygreenmuted">
             <div className="h-[470px] relative rounded-[20px] overflow-hidden z-10">

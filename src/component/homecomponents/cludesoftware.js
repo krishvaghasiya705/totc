@@ -42,8 +42,8 @@ export default function Cludesoftware() {
             </p>
           </div>
           <div className="grid grid-cols-3 gap-60">
-            {Cloudecarddata.map((i) => (
-              <div className="relative pt-[57px]">
+            {Cloudecarddata.map((i, index) => (
+              <div className="relative pt-[57px]" key={index}>
                 <div className="absolute top-0 left-2/4 -translate-x-2/4">
                   <div
                     className={`rounded-full w-100 h-100 flex justify-center items-center ${i.iconcolor}`}
