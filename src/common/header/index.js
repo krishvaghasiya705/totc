@@ -3,6 +3,7 @@ import Link from "next/link";
 import Logo from "@/assets/icon/logo";
 import Commonbutton from "@/component/commonbutton";
 import Menuicon from "@/assets/icon/menuicon";
+import Closeicon from "@/assets/icon/closeicon";
 
 export default function Header() {
   return (
@@ -14,8 +15,8 @@ export default function Header() {
               <Logo />
             </Link>
           </div>
-          <div className="flex items-center gap-20 lg:w-full lg:gap-5 lg:justify-between xl:hidden">
-            <div className="flex items-center gap-20 lg:w-[calc(100%-379px)] lg:gap-5 lg:justify-between">
+          <div className="flex items-center gap-20 lg:w-full lg:gap-8 lg:justify-between xl:hidden">
+            <div className="flex items-center gap-20 lg:w-[calc(100%-341px)] lg:gap-8 lg:justify-center">
               <Link
                 href={"/"}
                 className="text-white text-[20px] font-normal leading-8"
@@ -47,14 +48,15 @@ export default function Header() {
                 About Us
               </Link>
             </div>
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-5">
               <Commonbutton text="Login" href="/" variant="primary" />
               <Commonbutton text="Sign Up" href="/" variant="secondary" />
             </div>
           </div>
 
-          <div className="hidden xl:block w-30 h-30">
+          <div className="hidden xl:block w-30 h-30 cursor-pointer">
             <Menuicon />
+            {/* <Closeicon /> */}
           </div>
         </div>
       </div>

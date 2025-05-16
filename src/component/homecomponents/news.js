@@ -7,9 +7,9 @@ import newsimage4 from "@/assets/image/newsimage4.png";
 
 export default function Latestnews() {
   return (
-    <div className="pt-[150px] pb-[115px]">
+    <div className="pt-[150px] pb-[115px] xl:py-100">
       <div className="container2">
-        <div className="flex items-center justify-center flex-col mb-100">
+        <div className="flex items-center justify-center flex-col mb-100 xl:mb-30">
           <h2 className="text-4xl font-bold leading-[65px] text-cusblue mb-5">
             Lastest News and Resources
           </h2>
@@ -17,9 +17,9 @@ export default function Latestnews() {
             See the developments that have occurred to TOTC in the world
           </p>
         </div>
-        <div className="flex gap-30 justify-between">
-          <div className="max-w-[640px]">
-            <div className="h-[340px]">
+        <div className="flex gap-30 justify-between xl:flex-col">
+          <div className="max-w-[640px] xl:max-w-full">
+            <div className="h-[340px] xl:h-[450px]">
               <Image
                 src={newsimage1}
                 alt="newsimage1"
@@ -38,11 +38,11 @@ export default function Latestnews() {
                 </span>
               </button>
 
-              <h3 className="mt-5 text-[26px] font-medium leading-[47px] text-cuslightblue">
+              <h3 className="mt-5 text-[26px] font-medium leading-[47px] text-cuslightblue line-clamp-2">
                 Class adds $30 million to its balance sheet for a Zoom-friendly
                 edtech solution
               </h3>
-              <p className="mt-5 mb-7 text-[20px] font-normal leading-[36px] text-lightpurplemuted">
+              <p className="mt-5 mb-7 text-[20px] font-normal leading-[36px] text-lightpurplemuted line-clamp-2">
                 Class, launched less than a year ago by Blackboard co-founder
                 Michael Chasen, integrates exclusively...
               </p>
@@ -51,7 +51,7 @@ export default function Latestnews() {
               </span>
             </div>
           </div>
-          <div className="max-w-[797px]">
+          <div className="max-w-[797px] xl:max-w-full">
             <div className="flex flex-col gap-50">
               <div className="flex justify-between gap-10">
                 <div className="max-w-[280px] w-full relative">
@@ -72,11 +72,11 @@ export default function Latestnews() {
                   </button>
                 </div>
                 <div>
-                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5">
+                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5 line-clamp-2">
                     Class Technologies Inc. Closes $30 Million Series A
                     Financing to Meet High Demand
                   </h4>
-                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted">
+                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
                     Class Technologies Inc., the company that created Class,...
                   </p>
                 </div>
@@ -100,11 +100,11 @@ export default function Latestnews() {
                   </button>
                 </div>
                 <div>
-                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5">
+                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5 line-clamp-2">
                     Zoom&apos;s earliest investors are betting millions on a better
                     Zoom for schools
                   </h4>
-                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted">
+                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
                     Zoom was never created to be a consumer product.
                     Nonetheless, the...
                   </p>
@@ -129,11 +129,11 @@ export default function Latestnews() {
                   </button>
                 </div>
                 <div>
-                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5">
+                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5 line-clamp-2">
                     Former Blackboard CEO Raises $16M to Bring LMS Features to
                     Zoom Classrooms
                   </h4>
-                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted">
+                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
                     This year, investors have reaped big financial returns from
                     betting on Zoom...
                   </p>

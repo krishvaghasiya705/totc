@@ -28,7 +28,7 @@ export default function Cludesoftware() {
     },
   ];
   return (
-    <div className="pt-[131px]">
+    <div className="pt-[131px] xl:pt-100">
       <div className="container3">
         <div className="px-[28px]">
           <div className="flex justify-center items-center flex-col mb-100">
@@ -41,7 +41,7 @@ export default function Cludesoftware() {
               tools needed to run a successful school or office.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-60">
+          <div className="grid grid-cols-3 gap-60 xl:grid-cols-2 md:grid-cols-1">
             {Cloudecarddata.map((i, index) => (
               <div className="relative pt-[57px]" key={index}>
                 <div className="absolute top-0 left-2/4 -translate-x-2/4">
@@ -55,7 +55,7 @@ export default function Cludesoftware() {
                   <h4 className="text-[28px] font-medium leading-[45px] text-cusblue mb-6">
                     {i.title}
                   </h4>
-                  <p className="text-lg leading-[25px] font-normal text-lightpurplemuted">
+                  <p className="text-lg leading-[30px] font-normal text-lightpurplemuted">
                     {i.paragraph}
                   </p>
                 </div>

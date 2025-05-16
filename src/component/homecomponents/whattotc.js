@@ -6,7 +6,7 @@ import Commonbutton from "../commonbutton";
 
 export default function Whattotc() {
   return (
-    <div className="pt-[158px]">
+    <div className="pt-[158px] xl:pt-100">
       <div className="container4">
         <div className="flex justify-center items-center flex-col mb-[77px]">
           <h4 className="text-[44px] font-semibold leading-[79px] text-cusblue mb-5">
@@ -21,7 +21,7 @@ export default function Whattotc() {
         </div>
         <div className="flex justify-between items-center gap-30">
           <div className="group w-full max-w-[600px] relative h-[400px] rounded-[20px] overflow-hidden before:bg-cusblue2light before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-10">
-            <div className="relative">
+            <div className="relative h-full">
               <Image
                 src={whatimage1}
                 alt="whatimage1"
@@ -37,7 +37,7 @@ export default function Whattotc() {
             </div>
           </div>
           <div className="group w-full max-w-[600px] relative h-[400px] rounded-[20px] overflow-hidden before:bg-cusblue2light before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-10">
-            <div className="relative">
+            <div className="relative h-full">
               <Image
                 src={whatimage2}
                 alt="whatimage2"
