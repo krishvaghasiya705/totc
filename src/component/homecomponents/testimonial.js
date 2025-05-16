@@ -89,10 +89,10 @@ export default function Testimonial() {
                     <div className="rounded-[20px] overflow-hidden bg-white pl-[55px] pr-[42px] pb-[29px] pt-[41px] relative before:absolute before:left-0 before:top-0 before:bg-redmuted before:h-full before:w-[14px]">
                       <div>
                         <p className="border-l-[1px] border-l-whitelight3 pl-8 text-[22px] font-normal leading-10 text-lightpurplemuted2 mb-30 font-Nunito">
-                          "Thank you so much for your help. It's exactly what
-                          I've been looking for. You won't regret it. It really
+                          &quot;Thank you so much for your help. It&apos;s exactly what
+                          I&apos;ve been looking for. You won&apos;t regret it. It really
                           saves me time and effort. TOTC is exactly what our
-                          business has been lacking."
+                          business has been lacking.&quot;
                         </p>
                         <div className="flex justify-between items-center">
                           <p className="text-2xl font-semibold leading-[43px] text-lightpurplemuted2 font-Nunito">
@@ -130,10 +130,10 @@ export default function Testimonial() {
                     <div className="rounded-[20px] overflow-hidden bg-white pl-[55px] pr-[42px] pb-[29px] pt-[41px] relative before:absolute before:left-0 before:top-0 before:bg-redmuted before:h-full before:w-[14px]">
                       <div>
                         <p className="border-l-[1px] border-l-whitelight3 pl-8 text-[22px] font-normal leading-10 text-lightpurplemuted2 mb-30 font-Nunito">
-                          "Thank you so much for your help. It's exactly what
-                          I've been looking for. You won't regret it. It really
+                          &quot;Thank you so much for your help. It&apos;s exactly what
+                          I&apos;ve been looking for. You won&apos;t regret it. It really
                           saves me time and effort. TOTC is exactly what our
-                          business has been lacking."
+                          business has been lacking.&quot;
                         </p>
                         <div className="flex justify-between items-center">
                           <p className="text-2xl font-semibold leading-[43px] text-lightpurplemuted2 font-Nunito">

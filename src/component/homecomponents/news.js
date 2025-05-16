@@ -101,7 +101,7 @@ export default function Latestnews() {
                 </div>
                 <div>
                   <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5">
-                    Zoom's earliest investors are betting millions on a better
+                    Zoom&apos;s earliest investors are betting millions on a better
                     Zoom for schools
                   </h4>
                   <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted">
