@@ -13,7 +13,7 @@ export default function Commonbuttontwo({
   const baseStyles =
     "pl-9 rounded-full text-[22px] font-medium leading-8 flex items-center gap-30 transition-all delay-400 ease-in-out";
   const ChildbaseStyles =
-    "w-[80px] h-[80px] flex justify-center items-center rounded-full border-[1px] border-green bg-white transition-all delay-400 ease-in-out";
+    "w-[70px] h-[70px] flex justify-center items-center rounded-full border-[1px] border-green bg-white transition-all delay-400 ease-in-out";
   const variantStyles = {
     borderedgreen:
       "bg-transparent border-solid border-[1px] border-green text-green group-hover:bg-green group-hover:border-green group-hover:text-white",

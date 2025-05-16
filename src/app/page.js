@@ -6,6 +6,7 @@ import Everything from "@/component/homecomponents/everything";
 import Explorecourse from "@/component/homecomponents/explorecourse";
 import Fetures from "@/component/homecomponents/fetures";
 import Herobanner from "@/component/homecomponents/herobanner";
+import Latestnews from "@/component/homecomponents/news";
 import Success from "@/component/homecomponents/success";
 import Testimonial from "@/component/homecomponents/testimonial";
 import Toolteacher from "@/component/homecomponents/toolteacher";
@@ -26,6 +27,7 @@ export default function Home() {
       <Discussions />
       <Explorecourse />
       <Testimonial />
+      <Latestnews />
     </>
   );
 }

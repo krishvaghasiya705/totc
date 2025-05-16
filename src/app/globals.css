@@ -81,3 +81,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.react-slick,.react-slick div {
+  outline: none;
+}

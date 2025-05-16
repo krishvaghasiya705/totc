@@ -5,7 +5,7 @@ import Commonbutton from "@/component/commonbutton";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 z-50 py-30 w-full bg-green">
+    <header className="fixed top-0 left-0 z-50 py-3 w-full bg-green">
       <div className="container">
         <div className="flex justify-between gap-30">
           <div>

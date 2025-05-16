@@ -18,7 +18,7 @@ export default function Everything() {
               schools manage scheduling, attendance, payments and virtual
               classrooms all in one secure cloud-based system.
             </p>
-            <span className="text-[22px] leading-10 font-normal text-lightpurplemuted underline pointer">
+            <span className="text-[22px] leading-10 font-normal text-lightpurplemuted underline cursor-pointer">
               Learn more
             </span>
           </div>
@@ -30,7 +30,7 @@ export default function Everything() {
                 width={1000}
                 height={1000}
               />
-              <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 pointer">
+              <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 cursor-pointer">
                 <div className="w-[70px] h-[70px] flex justify-center items-center bg-white rounded-full">
                   <Playicon2 />
                 </div>
