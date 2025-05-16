@@ -8,7 +8,7 @@ export default function Discussions() {
     <div className="pt-[160px]">
       <div className="container3">
         <div className="flex justify-between items-center gap-30">
-          <div className="max-w-[755px]">
+          <div className="w-[calc(100%-700px)]">
             <Image
               src={discussionsimage}
               alt="discussionsimage"
@@ -17,16 +17,16 @@ export default function Discussions() {
             />
           </div>
           <div className="max-w-[540px]">
-            <h5 className="text-4xl font-bold leading-[65px] text-cusblue mb-5 max-w-[274px]">
+            <h5 className="text-[40px] font-semibold leading-[64px] text-cusblue mb-5 max-w-[274px]">
               One-on-One <span className="text-greenmuted">Discussions</span>
             </h5>
-            <p className="text-2xl font-normal leading-[44px] text-lightpurplemuted">
+            <p className="text-2xl text-[22px] font-normal leading-[40px] text-lightpurplemuted">
               Teachers and teacher assistants can talk with students privately
               without leaving the Zoom environment.
             </p>
           </div>
         </div>
-        <div className="pt-[150px] flex justify-center mb-[57px]">
+        <div className="pt-30 flex justify-center mb-[57px]">
              <Commonbutton text="See more features" href="/" variant="borderedgreen" Buttonclass="p-30" />
         </div>
       </div>

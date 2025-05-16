@@ -9,10 +9,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        lg: "1440px",
-        xl: "1024px",
-        md: "768px",
-        sm: "576px",
+        lg: { max: "1440px" },
+        xl: { max: "1024px" },
+        md: { max: "768px" },
+        sm: { max: "576px" },
       },
       colors: {
         black2: "#010514",
@@ -57,16 +57,17 @@ module.exports = {
         shadow4: "0px 3px 49px 9px #0000000F",
       },
       spacing: {
-        30: '30px',
-        50: '50px',
-        60: '60px',
-        100: '100px',
+        30: "30px",
+        50: "50px",
+        60: "60px",
+        100: "100px",
       },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
         Nunito: ["Nunito Sans", "sans-serif"],
+        buenos: ['"Buenos Aires Trial"', "serif"],
       },
     },
     plugins: [],
-  }
-}
+  },
+};

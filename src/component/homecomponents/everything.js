@@ -7,13 +7,13 @@ export default function Everything() {
   return (
     <div className="pt-[160px]">
       <div className="container3">
-        <div className="grid grid-cols-2 gap-30 items-center">
-          <div>
-            <h5 className="text-4xl font-normal leading-[58px] mb-30 text-cusblue relative before:absolute before:-top-[13px] before:-left-[25px] before:bg-skygreenmuted before:w-[73px] before:h-[73px] before:rounded-full before:-z-[1]">
+        <div className="grid grid-cols-2 gap-[47px] items-center">
+          <div className="pl-7">
+            <h5 className="text-4xl font-medium leading-[58px] mb-30 text-cusblue relative before:absolute before:-top-[13px] before:-left-[25px] before:bg-skygreenmuted before:w-[73px] before:h-[73px] before:rounded-full before:-z-[1]">
               Everything you can do in a physical classroom,{" "}
               <span className="text-greenmuted">you can do with TOTC</span>
             </h5>
-            <p className="text-2xl leadin-[43px] font-normal text-lightpurplemuted mb-30">
+            <p className="text-[24px] font-normal leading-[43px] text-lightpurplemuted mb-30">
               TOTC&apos;s school management software helps traditional and online
               schools manage scheduling, attendance, payments and virtual
               classrooms all in one secure cloud-based system.

@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-cuslightblue pt-[74px] pb-10">
       <div className="container">
         <div className="max-w-[599px] mx-auto">
-          <div className="flex items-center justify-between max-w-[388px] mx-auto w-full">
+          <div className="flex items-center justify-between max-w-[388px] mx-auto">
             <Link href={"/"}>
               <Logo />
             </Link>

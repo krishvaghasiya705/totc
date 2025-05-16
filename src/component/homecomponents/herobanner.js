@@ -13,7 +13,7 @@ export default function Herobanner() {
     <div className="pt-[224px] home-herobanner">
       <div className="container2">
         <div className="flex gap-30 justify-between">
-          <div className="max-w-[681px] mt-[111px]">
+          <div className="max-w-[681px] w-full mt-[111px]">
             <h1 className="text-[54px] font-bold leading-[81px] text-white mb-8">
               <span className="text-cusorange">Studying</span> Online is now
               much easier
@@ -72,7 +72,7 @@ export default function Herobanner() {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-between gap-30">
+              <div className="flex justify-between gap-30 mt-[95px] mb-30">
                 <div></div>
                 <div className="bg-whitelight2 rounded-[20px] px-7 py-[25px] flex items-center gap-8 max-w-[380px]">
                   <Image

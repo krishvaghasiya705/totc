@@ -13,13 +13,13 @@ export default function Fetures() {
           <h6 className="text-4xl font-bold leading-[65px] text-cusblue mb-5">
             Our <span className="text-greenmuted">Features</span>
           </h6>
-          <p className="text-center text-2xl font-normal leading-[44px] text-lightpurplemuted">
+          <p className="text-center text-[22px] font-normal leading-[40px] text-lightpurplemuted">
             This very extraordinary feature, can make learning activities more
             efficient
           </p>
         </div>
         <div className="flex items-center justify-between">
-          <div>
+          <div className="w-[calc(100%-700px)]">
             <Image
               src={meetingimage}
               alt="meetingimage"
@@ -27,13 +27,13 @@ export default function Fetures() {
               height={1000}
             />
           </div>
-          <div className="w-full max-w-[545px]">
-            <h1 className="text-4xl font-bold leading-[65px] text-cusblue mb-50">
+          <div className="max-w-[545px]">
+            <h1 className="text-[40px] font-semibold leading-[64px] text-cusblue mb-50">
               A <span className="text-greenmuted">user interface</span> designed
               for the classroom
             </h1>
             <div className="flex flex-col gap-10">
-              <div className="flex items-center gap-10">
+              <div className="flex items-center gap-5">
                 <div className="p-[17px] h-60 rounded-full shadow-shadow2">
                   <Gridicon />
                 </div>
@@ -42,7 +42,7 @@ export default function Fetures() {
                   Podium space.
                 </p>
               </div>
-              <div className="flex items-center gap-10">
+              <div className="flex items-center gap-5">
                 <div className="p-[17px] h-60 rounded-full shadow-shadow2">
                   <Colsicon />
                 </div>
@@ -50,7 +50,7 @@ export default function Fetures() {
                   TA&apos;s and presenters can be moved to the front of the class.
                 </p>
               </div>
-              <div className="flex items-center gap-10">
+              <div className="flex items-center gap-5">
                 <div className="p-[17px] h-60 rounded-full shadow-shadow2">
                   <Communityicon />
                 </div>

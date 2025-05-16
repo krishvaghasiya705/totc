@@ -51,11 +51,11 @@ export default function Cludesoftware() {
                     {i.icon}
                   </div>
                 </div>
-                <div className="shadow-shadow1 w-full h-full flex items-center flex-col text-center px-9 pb-50 pt-[122px] rounded-[20px]">
-                  <h4 className="text-3xl font-medium leading-[45px] text-cusblue mb-6">
+                <div className="shadow-shadow1 w-full h-full flex items-center justify-between flex-col text-center px-9 pb-50 pt-[122px] rounded-[20px]">
+                  <h4 className="text-[28px] font-medium leading-[45px] text-cusblue mb-6">
                     {i.title}
                   </h4>
-                  <p className="text-xl leading-[35px] font-normal text-lightpurplemuted">
+                  <p className="text-lg leading-[25px] font-normal text-lightpurplemuted">
                     {i.paragraph}
                   </p>
                 </div>

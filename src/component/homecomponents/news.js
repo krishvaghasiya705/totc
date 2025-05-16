@@ -18,7 +18,7 @@ export default function Latestnews() {
           </p>
         </div>
         <div className="flex gap-30 justify-between">
-          <div className="max-w-[640px] w-full">
+          <div className="max-w-[640px]">
             <div className="h-[340px]">
               <Image
                 src={newsimage1}
@@ -51,7 +51,7 @@ export default function Latestnews() {
               </span>
             </div>
           </div>
-          <div className="max-w-[797px] w-full">
+          <div className="max-w-[797px]">
             <div className="flex flex-col gap-50">
               <div className="flex justify-between gap-10">
                 <div className="max-w-[280px] w-full relative">

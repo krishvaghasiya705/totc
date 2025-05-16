@@ -9,7 +9,7 @@ export default function Whattotc() {
     <div className="pt-[158px]">
       <div className="container4">
         <div className="flex justify-center items-center flex-col mb-[77px]">
-          <h4 className="text-4xl font-bold leading-[65px] text-cusblue mb-5">
+          <h4 className="text-[44px] font-semibold leading-[79px] text-cusblue mb-5">
             What is <span className="text-greenmuted">TOTC?</span>
           </h4>
           <p className="max-w-[1101px] text-center text-2xl font-normal leading-[44px] text-lightpurplemuted">
