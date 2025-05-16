@@ -13,7 +13,7 @@ export default function Herobanner() {
     <div className="pt-[224px] home-herobanner lg:pb-3 lg:pt-[150px] xl:pb-0">
       <div className="container2">
         <div className="flex gap-30 justify-between xl:block">
-          <div className="max-w-[681px] w-full mt-[111px] lg:max-w-[650px] xl:max-w-full xl:mt-0 xl:mb-50">
+          <div className="max-w-[681px] mt-[111px] lg:max-w-[650px] xl:max-w-full xl:mt-0 xl:mb-50">
             <h1 className="text-[54px] font-bold leading-[81px] text-white mb-8 lg:text-[44px] lg:leading-[70px] lg:mb-5 md:text-[34px] md:leading-[55px]">
               <span className="text-cusorange">Studying</span> Online is now
               much easier
@@ -51,7 +51,7 @@ export default function Herobanner() {
             />
             <div className="absolute top-2/4 left-0 -translate-y-2/4 w-full xl:top-0 xl:-translate-y-0">
               <div className="flex justify-between gap-30 items-end">
-                <div className="bg-whitelight2 rounded-[20px] px-7 py-[25px] flex items-center gap-8 max-w-[300px] h-min backdrop-blur-[20px]">
+                <div className="bg-whitelight2 rounded-[20px] px-7 py-[25px] flex items-center gap-8 max-w-[300px] backdrop-blur-[20px]">
                   <Image
                     src={calendericon}
                     alt="calendericon"

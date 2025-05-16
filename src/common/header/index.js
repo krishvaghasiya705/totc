@@ -16,7 +16,7 @@ export default function Header() {
             </Link>
           </div>
           <div className="flex items-center gap-20 lg:w-full lg:gap-8 lg:justify-between xl:hidden">
-            <div className="flex items-center gap-20 lg:w-[calc(100%-341px)] lg:gap-8 lg:justify-center">
+            <div className="flex items-center gap-20 lg:w-[calc(100%-350px)] lg:gap-8 lg:justify-end">
               <Link
                 href={"/"}
                 className="text-white text-[20px] font-normal leading-8"
@@ -48,9 +48,9 @@ export default function Header() {
                 About Us
               </Link>
             </div>
-            <div className="flex items-center gap-5">
-              <Commonbutton text="Login" href="/" variant="primary" />
-              <Commonbutton text="Sign Up" href="/" variant="secondary" />
+            <div className="grid grid-cols-2 items-center gap-5">
+              <Commonbutton text="Login" href="/" variant="primary" Buttonclass="w-full" />
+              <Commonbutton text="Sign Up" href="/" variant="secondary" Buttonclass="w-full" />
             </div>
           </div>
 

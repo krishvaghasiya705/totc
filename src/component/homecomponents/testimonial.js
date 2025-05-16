@@ -82,7 +82,7 @@ export default function Testimonial() {
               />
             </div>
           </div>
-          <div className="max-w-[749px] w-full lg:max-w-[600px] xl:max-w-full">
+          <div className="max-w-[749px] lg:max-w-[600px] xl:max-w-full">
             <Slider {...settings}>
               <div>
                 <div className="relative pb-[120px]">

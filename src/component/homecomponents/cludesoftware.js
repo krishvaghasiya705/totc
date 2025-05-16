@@ -52,7 +52,7 @@ export default function Cludesoftware() {
                   </div>
                 </div>
                 <div className="shadow-shadow1 w-full h-full flex items-center justify-between flex-col text-center px-9 pb-50 pt-[122px] rounded-[20px]">
-                  <h4 className="text-[28px] font-medium leading-[45px] text-cusblue mb-6">
+                  <h4 className="text-[28px] font-medium leading-[45px] text-cusblue mb-6 lg:text-[25px]">
                     {i.title}
                   </h4>
                   <p className="text-lg leading-[30px] font-normal text-lightpurplemuted">
