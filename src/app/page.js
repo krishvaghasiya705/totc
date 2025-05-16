@@ -25,7 +25,7 @@ export default function Home() {
       <Assessments />
       <Classmanage />
       <Discussions />
-      <Explorecourse />
+      {/* <Explorecourse /> */}
       <Testimonial />
       <Latestnews />
     </>
