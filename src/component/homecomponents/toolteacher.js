@@ -12,7 +12,7 @@ export default function Toolteacher() {
               <span className="text-greenmuted">Tools</span> For Teachers And
               Learners
             </h2>
-            <p className="max-w-[837px] text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:max-w-full xl:text-[20px] xl:leading-[36px]">
+            <p className="max-w-[837px] text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:max-w-full xl:text-xl xl:leading-[36px]">
               Class has a dynamic set of teaching tools built to be deployed and
               used during class. Teachers can handout assignments in real-time
               for students to complete and submit.

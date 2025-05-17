@@ -21,7 +21,7 @@ export default function Assessments() {
               Assessments, <span className="text-greenmuted">Quizzes</span>,
               Tests
             </h3>
-            <p className="max-w-[540px] text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-[20px] xl:leading-[36px] xl:max-w-full">
+            <p className="max-w-[540px] text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-xl xl:leading-[36px] xl:max-w-full">
               Easily launch live assignments, quizzes, and tests. Student
               results are automatically entered in the online gradebook.
             </p>

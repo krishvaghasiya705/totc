@@ -38,7 +38,7 @@ export default function Fetures() {
                 <div className="p-[17px] h-60 rounded-full shadow-shadow2">
                   <Gridicon />
                 </div>
-                <p className="text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-[20px] xl:leading-[36px]">
+                <p className="text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-xl xl:leading-[36px]">
                   Teachers don&apos;t get lost in the grid view and have a dedicated
                   Podium space.
                 </p>
@@ -47,7 +47,7 @@ export default function Fetures() {
                 <div className="p-[17px] h-60 rounded-full shadow-shadow2">
                   <Colsicon />
                 </div>
-                <p className="text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-[20px] xl:leading-[36px]">
+                <p className="text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-xl xl:leading-[36px]">
                   TA&apos;s and presenters can be moved to the front of the class.
                 </p>
               </div>
@@ -55,7 +55,7 @@ export default function Fetures() {
                 <div className="p-[17px] h-60 rounded-full shadow-shadow2">
                   <Communityicon />
                 </div>
-                <p className="text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-[20px] xl:leading-[36px]">
+                <p className="text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-xl xl:leading-[36px]">
                   Teachers can easily see all students and class data at one
                   time.
                 </p>

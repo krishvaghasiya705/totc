@@ -42,11 +42,11 @@ export default function Latestnews() {
                 Class adds $30 million to its balance sheet for a Zoom-friendly
                 edtech solution
               </h3>
-              <p className="mt-5 mb-7 text-[20px] font-normal leading-[36px] text-lightpurplemuted line-clamp-2">
+              <p className="mt-5 mb-7 text-xl font-normal leading-[36px] text-lightpurplemuted line-clamp-2">
                 Class, launched less than a year ago by Blackboard co-founder
                 Michael Chasen, integrates exclusively...
               </p>
-              <span className="text-[20px] font-normal leading-[36px] text-lightpurplemuted underline cursor-pointer">
+              <span className="text-xl font-normal leading-[36px] text-lightpurplemuted underline cursor-pointer">
                 Read more
               </span>
             </div>
@@ -72,11 +72,11 @@ export default function Latestnews() {
                   </button>
                 </div>
                 <div>
-                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5 line-clamp-2">
+                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue line-clamp-2">
                     Class Technologies Inc. Closes $30 Million Series A
                     Financing to Meet High Demand
                   </h4>
-                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
+                  <p className="text-xl font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
                     Class Technologies Inc., the company that created Class,...
                   </p>
                 </div>
@@ -100,11 +100,11 @@ export default function Latestnews() {
                   </button>
                 </div>
                 <div>
-                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5 line-clamp-2">
+                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue line-clamp-2">
                     Zoom&apos;s earliest investors are betting millions on a better
                     Zoom for schools
                   </h4>
-                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
+                  <p className="text-xl font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
                     Zoom was never created to be a consumer product.
                     Nonetheless, the...
                   </p>
@@ -129,11 +129,11 @@ export default function Latestnews() {
                   </button>
                 </div>
                 <div>
-                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue mb-5 line-clamp-2">
+                  <h4 className="text-[22px] font-medium leading-[40px] text-cuslightblue line-clamp-2">
                     Former Blackboard CEO Raises $16M to Bring LMS Features to
                     Zoom Classrooms
                   </h4>
-                  <p className="text-[20px] font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
+                  <p className="text-xl font-normal leading-[36px] text-lightpurplemuted line-clamp-3">
                     This year, investors have reaped big financial returns from
                     betting on Zoom...
                   </p>

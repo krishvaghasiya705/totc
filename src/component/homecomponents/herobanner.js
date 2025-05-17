@@ -10,7 +10,7 @@ import profileaciveimage from "@/assets/image/profileaciveimage.png";
 
 export default function Herobanner() {
   return (
-    <div className="pt-[224px] home-herobanner lg:pb-3 lg:pt-[150px] xl:pb-0">
+    <div className="pt-[200px] pb-30 home-herobanner lg:pt-[150px]">
       <div className="container2">
         <div className="flex gap-30 justify-between xl:block">
           <div className="max-w-[681px] mt-[111px] lg:max-w-[650px] xl:max-w-full xl:mt-0 xl:mb-50">
@@ -18,7 +18,7 @@ export default function Herobanner() {
               <span className="text-cusorange">Studying</span> Online is now
               much easier
             </h1>
-            <p className="text-2xl font-normal leading-[38px] text-white mb-[52px] max-w-[546px] xl:max-w-full md:text-[20px] md:leading-[28px]">
+            <p className="text-2xl font-normal leading-[38px] text-white mb-[52px] max-w-[546px] xl:max-w-full md:text-xl md:leading-[28px]">
               TOTC is an interesting platform that will teach you in more an
               interactive way
             </p>
@@ -69,7 +69,7 @@ export default function Herobanner() {
                   </div>
                 </div>
                 <div className="w-[69px] h-[69px] mr-100 mb-[86px] flex justify-center items-center bg-cuslightpink rounded-[14px]">
-                  <div className="bg-white rounded-lg py-[10px] px-[14px]">
+                  <div className="bg-white rounded-lg py-2.5 px-[14px]">
                     <Waveicon />
                   </div>
                 </div>

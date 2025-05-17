@@ -51,7 +51,7 @@ export default function Testimonial() {
   return (
     <div className="pt-[130px] xl:pt-100">
       <div className="container3">
-        <div className="flex justify-between items-center gap-5 xl:flex-col">
+        <div className="flex justify-between gap-5 xl:flex-col">
           <div className="max-w-[607px] xl:max-w-full xl:w-full">
             <div className="flex items-center gap-30 mb-8">
               <span className="h-[1px] w-20 bg-lightbluemuted"></span>
@@ -62,15 +62,15 @@ export default function Testimonial() {
             <h1 className="text-6xl font-bold leading-[82px] mb-30 text-cusblue font-Nunito xl:mb-5 xl:text-[38px] xl:leading-[54px]">
               What They Say?
             </h1>
-            <p className="text-[26px] leadin-[42px] font-normal text-lightpurplemuted mb-[26px] xl:text-[20px] xl:leading-[36px]">
+            <p className="text-[26px] leadin-[42px] font-normal text-lightpurplemuted mb-[26px] xl:text-xl xl:leading-[36px]">
               TOTC has got more than 100k positive ratings from our users around
               the world.
             </p>
-            <p className="text-[26px] leadin-[42px] font-normal text-lightpurplemuted mb-[46px] xl:text-[20px] xl:leading-[36px]">
+            <p className="text-[26px] leadin-[42px] font-normal text-lightpurplemuted mb-[46px] xl:text-xl xl:leading-[36px]">
               Some of the students and teachers were greatly helped by the
               Skilline.
             </p>
-            <p className="text-[26px] leadin-[42px] font-normal text-lightpurplemuted mb-[43px] xl:text-[20px] xl:leading-[36px]">
+            <p className="text-[26px] leadin-[42px] font-normal text-lightpurplemuted mb-[43px] xl:text-xl xl:leading-[36px]">
               Are you too? Please give your assessment
             </p>
             <div className="flex justify-start">

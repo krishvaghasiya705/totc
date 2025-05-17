@@ -12,7 +12,7 @@ export default function Classmanage() {
               <span className="text-greenmuted">Class Management</span> Tools
               for Educators
             </h4>
-            <p className="max-w-[837px] text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-[20px] xl:leading-[36px] xl:max-w-full">
+            <p className="max-w-[837px] text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-xl xl:leading-[36px] xl:max-w-full">
               Class provides tools to help run and manage the class such as
               Class Roster, Attendance, and more. With the Gradebook, teachers
               can review and grade tests and quizzes in real-time.

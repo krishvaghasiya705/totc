@@ -9,7 +9,7 @@ export default function Sliderarrow() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M2 2L14 12L2 22" stroke="#1EA4CE" stroke-width="4" />
+      <path d="M2 2L14 12L2 22" stroke="#1EA4CE" strokeWidth="4" />
     </svg>
   );
 }

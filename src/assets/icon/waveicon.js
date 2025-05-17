@@ -12,20 +12,20 @@ export default function Waveicon() {
       <path
         d="M11.5 2.42499V26.575"
         stroke="#F25471"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M2.875 6.73749L2.875 26.575"
         stroke="#F25471"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M20.125 11.9125V26.575"
         stroke="#F25471"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
     </svg>
   );

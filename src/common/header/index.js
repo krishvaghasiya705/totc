@@ -19,31 +19,31 @@ export default function Header() {
             <div className="flex items-center gap-20 lg:w-[calc(100%-367px)] lg:gap-8 lg:justify-end">
               <Link
                 href={"/"}
-                className="text-white text-[20px] font-normal leading-8"
+                className="text-white text-xl font-normal leading-8"
               >
                 Home
               </Link>
               <Link
                 href={"/"}
-                className="text-white text-[20px] font-normal leading-8"
+                className="text-white text-xl font-normal leading-8"
               >
                 Courses
               </Link>
               <Link
                 href={"/"}
-                className="text-white text-[20px] font-normal leading-8"
+                className="text-white text-xl font-normal leading-8"
               >
                 Careers
               </Link>
               <Link
                 href={"/"}
-                className="text-white text-[20px] font-normal leading-8"
+                className="text-white text-xl font-normal leading-8"
               >
                 Blog
               </Link>
               <Link
                 href={"/"}
-                className="text-white text-[20px] font-normal leading-8"
+                className="text-white text-xl font-normal leading-8"
               >
                 About Us
               </Link>

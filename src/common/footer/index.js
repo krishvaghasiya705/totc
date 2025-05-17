@@ -24,7 +24,7 @@ export default function Footer() {
             <input
               type="email"
               placeholder="Your Email"
-              className="py-[14px] px-30 rounded-full border-[1px] border-borderlightpurple2 bg-transparent w-full text-borderlightpurple2 text-[20px] font-normal leading-[30px]"
+              className="py-[14px] px-30 rounded-full border-[1px] border-borderlightpurple2 bg-transparent w-full text-borderlightpurple2 text-xl font-normal leading-[30px]"
             />
             <button
               type="button"

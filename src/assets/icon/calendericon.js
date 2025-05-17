@@ -9,7 +9,7 @@ export default function Calendericon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_0_584)">
+      <g clipPath="url(#clip0_0_584)">
         <path
           d="M12 0C11.0532 0 10.2857 0.767511 10.2857 1.71432V5.14285H13.7142V1.71432C13.7142 0.767511 12.9467 0 12 0Z"
           fill="#F5F5FC"

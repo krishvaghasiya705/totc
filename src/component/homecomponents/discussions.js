@@ -21,7 +21,7 @@ export default function Discussions() {
             <h5 className="text-[40px] font-semibold leading-[64px] text-cusblue mb-5 max-w-[274px] xl:mb-5 xl:text-[38px] xl:leading-[54px] xl:max-w-full">
               One-on-One <span className="text-greenmuted">Discussions</span>
             </h5>
-            <p className="text-2xl text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-[20px] xl:leading-[36px] xl:max-w-full">
+            <p className="text-2xl text-[22px] font-normal leading-[40px] text-lightpurplemuted xl:text-xl xl:leading-[36px] xl:max-w-full">
               Teachers and teacher assistants can talk with students privately
               without leaving the Zoom environment.
             </p>
