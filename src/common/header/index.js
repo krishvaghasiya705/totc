@@ -16,7 +16,7 @@ export default function Header() {
             </Link>
           </div>
           <div className="flex items-center gap-20 lg:w-full lg:gap-8 lg:justify-between xl:hidden">
-            <div className="flex items-center gap-20 lg:w-[calc(100%-350px)] lg:gap-8 lg:justify-end">
+            <div className="flex items-center gap-20 lg:w-[calc(100%-367px)] lg:gap-8 lg:justify-end">
               <Link
                 href={"/"}
                 className="text-white text-[20px] font-normal leading-8"
