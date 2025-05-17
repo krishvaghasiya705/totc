@@ -10,7 +10,7 @@ import profileaciveimage from "@/assets/image/profileaciveimage.png";
 
 export default function Herobanner() {
   return (
-    <div className="pt-[200px] pb-30 home-herobanner lg:pt-[150px]">
+    <div className="pt-[200px] pb-30 home-herobanner lg:pt-[150px] xl:pb-0 sm:before sm:before:absolute sm:before:-z-[1] sm:before:w-full sm:before:h-2/4 sm:before:bg-green sm:before:top-0 sm:before:left-0">
       <div className="container2">
         <div className="flex gap-30 justify-between xl:block">
           <div className="max-w-[681px] mt-[111px] lg:max-w-[650px] xl:max-w-full xl:mt-0 xl:mb-50">
@@ -22,7 +22,7 @@ export default function Herobanner() {
               TOTC is an interesting platform that will teach you in more an
               interactive way
             </p>
-            <div className="flex items-center gap-10 xl:gap-5">
+            <div className="flex items-center gap-10 xl:gap-5 sm:flex-col sm:items-start">
               <Commonbutton
                 text="Join for free"
                 href="/"
@@ -41,7 +41,7 @@ export default function Herobanner() {
               </div>
             </div>
           </div>
-          <div className="max-w-[911px] w-full relative flex justify-center items-end lg:max-w-[650px] xl:max-w-full xl:pt-50">
+          <div className="max-w-[911px] w-full relative flex justify-center items-end lg:max-w-[650px] xl:max-w-full xl:pt-50 sm:pb-0">
             <Image
               src={Herobannergirl}
               alt="Herobannergirl"
@@ -49,7 +49,7 @@ export default function Herobanner() {
               height={1000}
               className="max-w-[544px] lg:max-w-[450px]"
             />
-            <div className="absolute top-2/4 left-0 -translate-y-2/4 w-full xl:top-0 xl:-translate-y-0">
+            <div className="absolute top-2/4 left-0 -translate-y-2/4 w-full xl:top-0 xl:-translate-y-0 sm:hidden">
               <div className="flex justify-between gap-30 items-end">
                 <div className="bg-whitelight2 rounded-[20px] px-7 py-[25px] flex items-center gap-8 max-w-[300px] backdrop-blur-[20px]">
                   <Image
@@ -68,7 +68,7 @@ export default function Herobanner() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[69px] h-[69px] mr-100 mb-[86px] flex justify-center items-center bg-cuslightpink rounded-[14px]">
+                <div className="w-[69px] h-[69px] mr-100 mb-[86px] flex justify-center items-center bg-cuslightpink rounded-[14px] sm:mr-0">
                   <div className="bg-white rounded-lg py-2.5 px-[14px]">
                     <Waveicon />
                   </div>

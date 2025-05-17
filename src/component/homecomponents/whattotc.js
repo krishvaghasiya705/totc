@@ -19,7 +19,7 @@ export default function Whattotc() {
             provide students with feedback all in one place.
           </p>
         </div>
-        <div className="flex justify-between items-center gap-30">
+        <div className="flex justify-between items-center gap-30 md:flex-col">
           <div className="group w-full max-w-[600px] relative h-[400px] rounded-[20px] overflow-hidden before:bg-cusblue2light before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-10">
             <div className="relative h-full">
               <Image

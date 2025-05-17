@@ -30,8 +30,8 @@ export default function Cludesoftware() {
   return (
     <div className="pt-[131px] xl:pt-100">
       <div className="container3">
-        <div className="px-[28px]">
-          <div className="flex justify-center items-center flex-col mb-100">
+        <div className="px-[28px] md:px-0">
+          <div className="flex justify-center items-center flex-col mb-100 md:mb-50">
             <h3 className="text-4xl font-bold leading-[65px] text-cusblue mb-5">
               All-In-One{" "}
               <span className="text-greenmuted">Cloud Software.</span>
@@ -41,17 +41,17 @@ export default function Cludesoftware() {
               tools needed to run a successful school or office.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-60 xl:grid-cols-2 md:grid-cols-1">
+          <div className="grid grid-cols-3 gap-60 xl:grid-cols-2 md:!grid-cols-1 md:gap-30">
             {Cloudecarddata.map((i, index) => (
-              <div className="relative pt-[57px]" key={index}>
+              <div className="relative pt-50 md:pt-30" key={index}>
                 <div className="absolute top-0 left-2/4 -translate-x-2/4">
                   <div
-                    className={`rounded-full w-100 h-100 flex justify-center items-center ${i.iconcolor}`}
+                    className={`rounded-full w-100 h-100 flex justify-center items-center ${i.iconcolor} md:w-60 md:h-60 md:p-[20px]`}
                   >
                     {i.icon}
                   </div>
                 </div>
-                <div className="shadow-shadow1 w-full h-full flex items-center justify-between flex-col text-center px-9 pb-50 pt-[122px] rounded-[20px]">
+                <div className="shadow-shadow1 w-full h-full flex items-center justify-between flex-col text-center px-9 pb-50 pt-[122px] rounded-[20px] md:pt-50">
                   <h4 className="text-[28px] font-medium leading-[45px] text-cusblue mb-6 lg:text-[25px]">
                     {i.title}
                   </h4>
